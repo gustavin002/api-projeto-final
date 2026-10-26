@@ -1,0 +1,23 @@
+{
+  "name": "api-projeto-final",
+  "version": "1.0.0",
+  "description": "> CorpDesk porque queria um projeto voltado para o cenário empresarial, ideal para apresentar em uma entrevista técnica nas empresas que eu quiser entrar para ser útil para as empresas.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+  "dev": "node --watch --env-file=.env src/server.js",
+  "start": "node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gustavin002/api-projeto-final.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/gustavin002/api-projeto-final/issues"
+  },
+  "homepage": "https://github.com/gustavin002/api-projeto-final#readme"
+}
