@@ -1,17 +1,37 @@
-# API do projeto final
+# Nome do sistema
 
-> Troque este título pelo nome do seu sistema e escreva, em uma frase, o que ele resolve e para quem.
+> Uma frase: o que o sistema resolve e para quem.
 
-API REST desenvolvida no Curso Técnico em Desenvolvimento de Sistemas (SENAI), com Node.js e Express.
+API REST do projeto final do Curso Técnico em Desenvolvimento de Sistemas (SENAI).
 
-## Como abrir
+## Funcionalidades
 
-Neste repositório: **Code > Codespaces > Create codespace on main** (ou abra o codespace que já existe).
+- [x] Listar e detalhar chamados
+- [ ] Cadastrar, alterar e excluir
+- [ ] Banco de dados PostgreSQL
+- [ ] Login e permissões
+- [ ] Publicada na nuvem
+
+## Tecnologias
+
+Node.js · Express · PostgreSQL · Prisma
 
 ## Como rodar
 
-```bash
 npm install
 cp .env.example .env
 npm run dev
-```
+
+## Rotas
+
+| Método | Rota    | Descrição     |
+| ------ | ------- | ------------- |
+| GET    | /health | status da API |
+
+## Roadmap
+
+- Minha personalização: …
+
+## Autor
+
+Gustavo Maia da Silva · LinkedIn: linkedin.com/in/gustavo-maia-da-silva · GitHub: github.com/gustavin002
